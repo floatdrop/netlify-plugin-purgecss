@@ -1,0 +1,27 @@
+{
+    "name": "netlify-plugin-purgecss",
+    "version": "0.0.0",
+    "description": "A Netlify plugin to extract critical CSS from html files with PurgeCSS.",
+    "license": "MIT",
+    "author": "Vsevolod Strukchinsky (floatdrop@gmail.com)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/floatdrop/netlify-plugin-purgecss.git"
+    },
+    "bugs": {
+        "url": "https://github.com/floatdrop/netlify-plugin-purgecss/issues"
+    },
+    "homepage": "https://github.com/floatdrop/netlify-plugin-purgecss#readme",
+    "keywords": [
+        "netlify",
+        "netlify-plugin",
+        "purgecss"
+    ],
+    "engines": {
+        "node": ">=10.3.0"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "purgecss": "^3.0.0"
+    }
+}
